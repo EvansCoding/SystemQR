@@ -1,0 +1,7 @@
+C:\Users\nguye\source\repos\MODULE_UPDATE_INFO\DTODLL\bin\Debug\DTODLL.exe.config
+C:\Users\nguye\source\repos\MODULE_UPDATE_INFO\DTODLL\bin\Debug\DTODLL.exe
+C:\Users\nguye\source\repos\MODULE_UPDATE_INFO\DTODLL\bin\Debug\DTODLL.pdb
+C:\Users\nguye\source\repos\MODULE_UPDATE_INFO\DTODLL\obj\Debug\DTODLL.csprojAssemblyReference.cache
+C:\Users\nguye\source\repos\MODULE_UPDATE_INFO\DTODLL\obj\Debug\DTODLL.csproj.CoreCompileInputs.cache
+C:\Users\nguye\source\repos\MODULE_UPDATE_INFO\DTODLL\obj\Debug\DTODLL.exe
+C:\Users\nguye\source\repos\MODULE_UPDATE_INFO\DTODLL\obj\Debug\DTODLL.pdb

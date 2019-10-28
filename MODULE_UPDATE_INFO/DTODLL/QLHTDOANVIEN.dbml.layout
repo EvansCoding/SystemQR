@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10.75" name="QLHTDOANVIEN">
+  <DataContextMoniker Name="/QLHTDOANVIENDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ab2699b5-a4c9-409d-8cfe-4002d937d88b" absoluteBounds="0.75, 0.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/QLHTDOANVIENDataContext/DAIHOI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ed585d33-7781-46af-86aa-7a1f35dcc167" absoluteBounds="0.765, 1.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="742c7e30-3dfe-4bd9-980c-31559825d50a" absoluteBounds="0.75, 6.625, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/QLHTDOANVIENDataContext/DOANVIEN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a466cef5-b612-4b9c-8498-62d7c48998e5" absoluteBounds="0.765, 7.085, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="15f219ac-fe01-4fd9-88d8-fd8d2e531bc8" absoluteBounds="3.5, 1.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QLHTDOANVIENDataContext/THAMDUDAIHOI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="87ee3c04-8ea4-424c-920b-a8dc245dcb1d" absoluteBounds="3.515, 1.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.03929768880208); (3.5 : 2.03929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLHTDOANVIENDataContext/DAIHOI/DAIHOI_THAMDUDAIHOI" />
+      <nodes>
+        <classShapeMoniker Id="ab2699b5-a4c9-409d-8cfe-4002d937d88b" />
+        <classShapeMoniker Id="15f219ac-fe01-4fd9-88d8-fd8d2e531bc8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 8.56810628255208); (4.5 : 8.56810628255208); (4.5 : 2.82859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLHTDOANVIENDataContext/DOANVIEN/DOANVIEN_THAMDUDAIHOI" />
+      <nodes>
+        <classShapeMoniker Id="742c7e30-3dfe-4bd9-980c-31559825d50a" />
+        <classShapeMoniker Id="15f219ac-fe01-4fd9-88d8-fd8d2e531bc8" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
